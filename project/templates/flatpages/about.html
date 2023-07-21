@@ -1,0 +1,18 @@
+{% extends "flatpages/default.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}About Page (registration required){% endblock title %}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+{% block content %}
+    <br> <br>
+    <hr>
+<h1 style="font-family: 'Roboto Thin', sans-serif; font-size: 60px">{{ flatpage.content }}</h1>
+{% endblock content %}
+</body>
+</html>
